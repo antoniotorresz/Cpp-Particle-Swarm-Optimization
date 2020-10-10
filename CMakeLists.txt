@@ -3,7 +3,7 @@ project(ParticleSwarmOptimization)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ParticleSwarmOptimization main.cpp testFunctions.h Punto.h)
+add_executable(ParticleSwarmOptimization main.cpp testFunctions.h)
 
 #Agregamos python para poder usar matplotlibcpp
 find_package(Python2 COMPONENTS Development NumPy)

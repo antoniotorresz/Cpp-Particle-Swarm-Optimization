@@ -25,7 +25,6 @@ public:
 
     Particle(int _id) { id = _id; }
 
-    //Cutomized methods
     string toString() {
         stringstream ss;
         ss << id << "\t"
